@@ -1,0 +1,55 @@
+:root {
+    --dark-bg-color: #1f2937;
+    --hero-main-text: #f9faf8;
+    --hero-secondary-text:#e5e7eb;
+    --lighter-blue: #3882f6;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+.hero, .footer {
+    background-color: var(--dark-bg-color);
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--hero-main-text);
+}
+
+.hero-content p, nav a {
+    font-size: 18px;
+    color: var(--hero-secondary-text);
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--hero-main-text);
+}
+
+button, .cta {
+    background-color: var(--lighter-blue);
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark-bg-color);
+}
+
+section.quotes {
+    background-color: var(--hero-secondary-text);
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--dark-bg-color);
+}
