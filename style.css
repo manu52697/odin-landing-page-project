@@ -88,7 +88,7 @@ nav a {
     color: var(--hero-main-text);
 }
 
-button, .cta {
+button, .cta-container {
     background-color: var(--lighter-blue);
 }
 
@@ -171,4 +171,38 @@ div.quote {
 .quote-author {
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* CTA section specific things */
+.cta {
+    padding: 6rem;
+}
+
+.cta * {
+    color: var(--hero-main-text)
+} 
+
+.cta button {
+    border: 2px solid var(--hero-main-text);
+}
+
+.cta-container {
+    /* box-sizing: border-box; */
+    display:flex ;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+    max-width: 60rem;
+    padding: 3rem 3rem;
+    border-radius: 0.7rem;
+}
+
+/* footer */
+
+.footer {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hero-main-text);
 }
